@@ -1,33 +1,33 @@
-# STEP SEM-3 Java Lab Solutions - Week 4
+# STEP SEM-3 Java Lab Solutions - Week 5
 
-This branch contains the solutions for **Week 4: Functions & Arrays** (Practice & Assignment) for STEP SEM-3 (Java Programming).
+This branch contains the solutions for **Week 5: Java Arrays and Methods** (Practice & Assignment) for STEP SEM-3 (Java Programming).
 
 ## Files in this Branch
 
-1. **`week4_practice.java`**
-   - **L1:** Two Sum (`twoSum`)
-   - **L2:** Best Time to Buy and Sell Stock (`maxProfit`)
-   - **L3:** Contains Duplicate (`containsDuplicate`)
-   - **L4:** Merge Two Sorted Arrays (`mergeSortedArrays`)
-   - **L5:** Rotate Array (`rotateArray`)
+1. **`week5_practice.java`**
+   - **Problem 1:** Hackathon Score Curve Booster (`curveScores`) - in-place array modification
+   - **Problem 2:** Duplicate Team Name Finder (`findDuplicateTeam`) - nested-loop check without Collections
+   - **Problem 3:** Top-3 Podium Finder (`findTopThreeScores`) - single-pass tracking without sorting
+   - **Problem 4:** Hackathon Seating Grid Optimizer (`rowAverage`, `classifyRows`) - 2D jagged arrays
+   - **Problem 5:** Placement Drive Shortlisting & Ranking Engine (`Candidate`, `isEligible`, `shortlistAndRank`) - overloaded rules, Comparable, Arrays.sort
 
-2. **`week4_assignment.java`**
-   - **A1:** Product of Array Except Self (`productExceptSelf`) - $O(n)$ time without division
-   - **A2:** Maximum Subarray (`maxSubArray`) - Kadane's algorithm, $O(n)$ time and $O(1)$ space
-   - **A3:** 3Sum (`threeSum`) - $O(n^2)$ two-pointer scan with duplicate avoidance
-   - **A4:** Subarray Sum Equals K (`subarraySum`) - $O(n)$ time prefix sum hash map
-   - **A5:** Find Minimum in Rotated Sorted Array (`findMin`) - $O(\log n)$ modified binary search
+2. **`week5_assignment.java`**
+   - **Problem 1:** Fantasy Team Score Multiplier (`applyMultipliers`) - direct index modifications
+   - **Problem 2:** Duplicate Player Pick Checker (`findDuplicatePick`) - nested-loop validation
+   - **Problem 3:** Top Performer Tracker (`findMinMaxSpread`) - single-pass min/max tracking
+   - **Problem 4:** Match Day Grid Analyzer (`rowAverage`, `classifyMatches`) - 2D grid analysis
+   - **Problem 5:** Fantasy League Auto-Draft Ranking Engine (`Player`, `isDraftable`, `draftAndRank`) - Comparable auto-ranking
 
 ## How to Compile & Run
 
 ### Practice:
 ```bash
-javac week4_practice.java
-java week4_practice
+javac week5_practice.java
+java week5_practice
 ```
 
 ### Assignment:
 ```bash
-javac week4_assignment.java
-java week4_assignment
+javac week5_assignment.java
+java week5_assignment
 ```
