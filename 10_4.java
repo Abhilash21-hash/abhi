@@ -1,4 +1,4 @@
-public class 10_4 {
+
 public class Main {
 
     public static int countInBand(int[] scores, int low, int high) {
@@ -44,4 +44,4 @@ public class Main {
         System.out.println(countInBand(scores, 90, 100));
     }
 }
-}
+
